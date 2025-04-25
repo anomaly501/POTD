@@ -12,7 +12,7 @@ using namespace std;
 class Solution {
   public:
     int majorityElement(vector<int>& arr) {
-        // code here
+        
          unordered_map<int,int> mp;
         int n=arr.size();
         for(auto it:arr)
